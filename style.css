@@ -50,7 +50,7 @@ img{
 }
 
 #logo{
-    width: 250px;
+    min-width: 250px;
     position: relative;
     bottom: 20px;
     display: flex;
@@ -98,3 +98,4 @@ h4{
     position: relative;
     bottom: 20px;
 }
+
