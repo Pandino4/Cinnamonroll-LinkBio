@@ -1,0 +1,100 @@
+body{
+
+    /* Centers all text on the page */
+    text-align: center;
+
+    justify-items: center;
+
+    /* Makes all text italic */
+    font-style: italic;
+
+    /* Improves touch scrolling on mobile */
+    touch-action: pan-y;
+}
+
+#section1{
+
+    /* Space from the top of the page */
+    margin-top: 4em;
+}
+
+#section2{
+
+    /* Space between sections */
+    margin-top: 1em;
+}
+
+button{
+    width: 350px;
+    height: 60px;
+    border: 1px solid rgb(209,234,246);
+    background: transparent;
+    cursor: pointer;
+    border-radius: 27px;
+    margin-top: 1em;
+}
+
+ion-icon{
+    width:40px;
+    height: 40px;
+}
+
+img{
+
+    /* PROFILE IMAGE SIZE: Change width and height to resize the image */
+    width:100px;
+    height: 100px;
+
+    /* Makes the image round */
+    border-radius: 50%;
+}
+
+#logo{
+    width: 250px;
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+a{
+
+    /* Removes underline from links */
+    text-decoration: none;
+
+    /* LINK TEXT COLOR: You can replace "black" with rgb( ) values */
+    color: whitesmoke;
+
+}
+
+p{
+
+    /* CATEGORY TEXT COLOR */
+    color: rgb(255,208,225);
+}
+
+button:hover{
+
+    /* BUTTON COLOR ON HOVER: Change the color when mouse is over the button */
+    background: rgb(193,231,245);
+
+    /* Makes text bold on hover */
+    font-weight: bold;
+}
+
+h1{
+
+    /* NAME TEXT COLOR */
+    color: rgb(233,220,239);
+    position: relative;
+    bottom: 10px;
+}
+
+h4{
+
+    /* BIO / DESCRIPTION TEXT COLOR */
+    color: rgb(251,216,222);
+    position: relative;
+    bottom: 20px;
+}
