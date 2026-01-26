@@ -50,11 +50,11 @@ img{
 }
 
 #logo{
-    min-width: 250px;
-    position: relative;
-    bottom: 20px;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 40px; /* space between icons */
+    margin-top: -25px;
 }
 
 
@@ -98,4 +98,5 @@ h4{
     position: relative;
     bottom: 20px;
 }
+
 
