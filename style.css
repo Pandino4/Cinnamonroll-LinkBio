@@ -26,7 +26,6 @@ body::after{
 .container {
     width: 100%;
     max-width: 420px;
-    margin: 0 auto;
 
     align-items: center;
 }
@@ -179,6 +178,7 @@ a:hover ion-icon{
     border-top: 2px solid #ffccd8; /* matches theme */
     margin: 0 10px; /* spacing between text and line */
 }
+
 
 
 
