@@ -73,6 +73,9 @@ h4{
     margin-top: -10px; /* 👈 fine-tune vertical centering */
     width: 100%;
     max-width: 300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -172,6 +175,7 @@ a:hover ion-icon{
     border-top: 2px solid #ffccd8; /* matches theme */
     margin: 0 10px; /* spacing between text and line */
 }
+
 
 
 
